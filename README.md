@@ -35,14 +35,13 @@ Validación del umbral definido
 El workflow se ejecuta automáticamente en push y pull_request. Si alguna etapa falla, el pipeline se detiene de inmediato.
 
 mi archivo yml:
-name: CI - Calidad
 
+name: CI - Calidad
 on:
   push:
     branches: [""]
   pull_request:
     branches: [""]
-
 jobs:
   ci-quality:
     runs-on: ubuntu-latest
