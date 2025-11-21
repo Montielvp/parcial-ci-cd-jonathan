@@ -32,8 +32,7 @@ Pruebas unitarias con Jest
 Generación de cobertura con NYC
 Validación del umbral definido
 
-El workflow se ejecuta automáticamente en push y pull_request.
-Si alguna etapa falla, el pipeline se detiene de inmediato.
+El workflow se ejecuta automáticamente en push y pull_request. Si alguna etapa falla, el pipeline se detiene de inmediato.
 
 mi archivo yml:
 name: CI - Calidad
