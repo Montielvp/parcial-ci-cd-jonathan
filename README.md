@@ -39,9 +39,9 @@ name: CI - Calidad
 
 on:
   push:
-    branches: ["**"]
+    branches: [""]
   pull_request:
-    branches: ["**"]
+    branches: [""]
 
 jobs:
   ci-quality:
