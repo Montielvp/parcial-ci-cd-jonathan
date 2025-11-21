@@ -22,15 +22,15 @@ en proyectos profesionales y asegura que la mayor parte del código es verificad
 
 parte 2:
 Workflow CI/CD
-Se creó el archivo `.github/workflows/ci-quality.yml`, el cual ejecuta:
+Se creó el archivo .github/workflows/ci-quality.yml, el cual ejecuta:
 
-- Checkout del repositorio
-- Instalación de dependencias
-- Ejecución del linter
-- Build del proyecto
-- Pruebas unitarias con Jest
-- Generación de cobertura con NYC
-- Validación del umbral definido
+Checkout del repositorio
+Instalación de dependencias
+Ejecución del linter
+Build del proyecto
+Pruebas unitarias con Jest
+Generación de cobertura con NYC
+Validación del umbral definido
 
 El workflow se ejecuta automáticamente en push y pull_request.
 Si alguna etapa falla, el pipeline se detiene de inmediato.
@@ -106,7 +106,6 @@ Error detallado del job
 <img width="1327" height="615" alt="Captura de pantalla 2025-11-20 210335" src="https://github.com/user-attachments/assets/425d93cd-8008-44f9-92b8-5188a62ee83a" />
 
 
-Parte 5:
 Cómo identificar fallos en los logs:
 Cuando se ejecuta el workflow en GitHub Actions, cada paso deja un log. Para saber dónde falló:
 
@@ -132,7 +131,7 @@ Parte 5:
 Métodos para detectar código generado por IA:
 
 Análisis de patrones y estilo del código:
-Herramientas como GPTZero, CodeSquire Detector o analizadores de estilo revisan si el código tiene patrones repetitivos, nombres muy genéricos o estructuras muy "perfectas" que suelen venir de modelos de IA.
+Herramientas como GPTZero, CodeSquire Detector o analizadores de estilo revisan si el código tiene patrones repetitivos, nombres muy genéricos o estructuras muy perfectas que suelen venir de modelos de IA.
 
 Comparación con bases de datos de entrenamiento o fingerprinting:
 Algunos detectores comparan el código con patrones típicos de modelos como ChatGPT o Copilot, ya que estas IA tienden a repetir ciertas formas de escribir.
