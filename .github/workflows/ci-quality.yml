@@ -27,9 +27,6 @@ jobs:
       - name: Build
         run: npm run build
       
-      - name: Forzar error
-        run: exit 1
-
       - name: Ejecutar pruebas con cobertura
         run: npm run test
 
